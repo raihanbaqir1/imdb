@@ -1,0 +1,313 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+    top: 0;
+}
+
+.navigation {
+    margin: 10px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    width: 100px;
+    margin: 5px;
+}
+
+.navigation a {
+    color: black;
+}
+
+a li:hover {
+	background-color: rgba(133, 133, 133, 0.7);
+}
+
+a li {
+    background-color: rgb(133, 133, 133);
+    padding: 5px 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+}
+  /* Banner */
+  
+  #banner {
+    position: relative;
+    height: 750px;
+    padding: 0 10%;
+    background: url("https://c2.staticflickr.com/2/1841/44694540361_2fc5e63847_b_d.jpg") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  #banner:before { 
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+  }
+  
+  #banner * {
+    position: relative; 
+  }
+
+  #banner h1 {
+    padding-top: 280px;
+    padding-bottom:0px;
+    font-size: 80px;
+    color: white;
+	
+  }
+
+  
+#banner p {
+    color: white;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+/*konten*/
+
+
+.featured {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+.konten1 {
+    background-color: whitesmoke;
+}
+
+.konten1 a {
+    color: black;
+}
+
+.museum1 {
+    width: 57%;
+   /* margin-right: 2%;*/
+    float: left;
+}
+
+.museum1 img {
+    position: relative;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    margin: 5% auto;
+}
+
+.paragraph1 {
+    margin-top: 5%;
+    width: 42%;
+    float: left;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.button {
+    background-color: rgb(133, 133, 133);
+    padding: 5px 20px;
+    width: fit-content;
+    border-radius: 15px;
+    display: inline;
+    margin-right: 25px;
+}
+
+.button:hover {
+	background-color: rgba(133, 133, 133, 0.7);
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    clear:both;
+}
+
+.konten2 {
+    background-color: rgb(36, 36, 36);
+}
+
+.konten2 a {
+    color: whitesmoke;
+}
+
+.museum2 {
+    width: 57%;
+   /* margin-right: 2%;*/
+    float: left;
+}
+
+.museum2 img {
+    position: relative;
+    top: 50%;
+    left: 25%;
+    width: 60%;
+    margin: 5% auto;
+}
+
+.paragraph2 {
+    margin-top: 5%;
+    color: whitesmoke;
+    width: 40%;
+    float: left;
+    font-size: 20px;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.konten3 {
+    margin: 0 auto;
+    border: 0;
+}
+
+.explore-header {
+    margin-left: 20px;
+}
+
+.explore {
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    flex: 0 0 auto;
+}
+
+.explore-scroll {
+   overflow-x: scroll;
+   overflow-y: hidden; 
+   display: flex;
+   width: auto;
+   white-space:nowrap;
+}
+
+.nasional {
+    background: url('https://farm9.staticflickr.com/8582/16584644655_395e8cd1dd_z_d.jpg') center center no-repeat;
+    background-size: 100%;
+}
+
+.nasional:hover {
+    opacity: 0.9;
+}
+
+.fatahillah {
+    background: url('https://farm4.staticflickr.com/3750/10014025424_0ba343bd40_z_d.jpg') center center no-repeat;
+    background-size: 100%;
+}
+
+.fatahillah:hover {
+    opacity: 0.9;
+
+}.macan {
+    background: url('https://farm1.staticflickr.com/961/41400826435_4f59ea4dbb_z_d.jpg') center center no-repeat;
+    background-size: 100%;
+}
+
+.macan:hover {
+    opacity: 0.9;
+}
+
+.geologi {
+    background: url('https://farm8.staticflickr.com/7322/9058382479_1387b8c459_z_d.jpg') center center no-repeat;
+    background-size: 100%;
+}
+
+.geologi:hover {
+    opacity: 0.9;
+}
+
+.tsunami {
+    background: url('https://farm8.staticflickr.com/7203/13982568664_973ba437c3_z_d.jpg') center center no-repeat;
+    background-size: 100%;
+}
+
+.tsunami:hover {
+    opacity: 0.9;
+}
+
+.explore h3 {
+    background-color: rgb(36, 36, 36);
+    color: whitesmoke;
+    display: block;
+    width: fit-content;
+    padding-right: 5px;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    height: 120px;
+}
+
+.mapouter {
+    text-align:right;
+    height:100px;
+    width:300px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background:none!important;
+    height:100px;
+    width:300px;
+    margin-bottom: 0;
+}
+
+.footer1 {
+    float: left;
+    color: whitesmoke;
+    font-size: 15px;
+    height: 120px;
+    width: 70%;
+}
+
+.navigation2 {
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.navigation2 li {
+    display: inline-block;
+    width: 80px;
+    margin-left: 40px;
+}
+
+h4 strong {
+    margin: 0 auto;
+}
+
+.aboutus {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.navigation2 a li {
+    color: whitesmoke;
+    background-color: rgb(36, 36, 36);
+    margin-left: 10px;
+    padding-left: 0px;
+}

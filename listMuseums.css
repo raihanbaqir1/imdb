@@ -1,0 +1,204 @@
+body{
+    margin: 0 auto;
+    font-family; sans-serif;
+    background-color: rgb(50, 50, 50);
+}
+/*Navigasi*/
+
+header {
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+    top: 0;
+}
+.navigation {
+    margin: 10px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+.navigation li {
+    display: inline-block;
+    width: 100px;
+    margin: 5px;
+}
+.navigation a {
+    color: black;
+}
+a li {
+    background-color: rgb(133, 133, 133);
+    padding: 5px 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+#judul{
+    color: black;
+}
+a {
+color: white;    
+}
+
+/*Banner*/
+
+#bannerFix {
+    position: relative;
+    height: 750px;
+    padding: 0 10%;
+    background: url("https://d15hng3vemx011.cloudfront.net/attachment/35312385464763388936.large") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+	margin: 0 0;
+	
+  }
+  
+  #bannerFix:before { 
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+  }
+  
+  #bannerFix * {
+    position: relative; 
+  }
+
+  #bannerFix h1 {
+    padding-top: 280px;
+    padding-bottom:0px;
+    font-size: 80px;
+    color: white;
+	
+  }
+
+  
+#bannerFix p {
+    color: white;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+/*konten*/
+
+#banner1 {
+	border: 1px solid whitesmoke;
+	padding: 0 0;
+    position: relative;
+    height: 450px;
+    background: url("Museum_Nasional_Indonesia.jpg") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.90;
+}
+#banner1 h1 {
+    padding-top: 300px;
+    padding-bottom: 0px;
+    font-size: 60px;
+    color: whitesmoke;
+}
+#banner2 {
+	border: 1px solid whitesmoke;
+	padding: 0 0;
+    position: relative;
+    height: 450px;
+    background: url("Museum_Geologi.jpeg") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.90;
+}
+#banner2 h1 {
+    padding-top: 300px;
+    padding-bottom: 0px;
+    font-size: 60px;
+    color: whitesmoke;
+}
+#banner3 {
+	border: 1px solid whitesmoke;
+	padding: 0 0;
+    position: relative;
+    height: 450px;
+    background: url("asdfg.jpg") bottom center no-repeat;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.90;
+}
+
+#banner3 h1 { 
+    padding-top: 300px;
+    padding-bottom: 0px;
+    font-size: 60px;
+    color: whitesmoke;
+}
+#banner4 {
+	border: 1px solid whitesmoke;
+	padding: 0 0;
+    position: relative;
+    height: 450px;
+    background: url("https://farm1.staticflickr.com/869/41107418254_93f84f7005_b_d.jpg") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.90;
+}
+#banner4 h1 {
+    padding-top: 300px;
+    padding-bottom: 0px;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    height: 120px;
+}
+
+.mapouter {
+    text-align:right;
+    height:100px;
+    width:300px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background:none!important;
+    height:100px;
+    width:300px;
+    margin-bottom: 0;
+}
+
+.footer1 {
+    float: left;
+    color: whitesmoke;
+    font-size: 15px;
+    height: 120px;
+    width: 70%;
+}
+
+.navigation2 {
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.navigation2 li {
+    display: inline-block;
+    width: 80px;
+    margin-left: 40px;
+}
+
+h4 strong {
+    margin: 0 auto;
+}
+
+.aboutus {
+    margin-left: 10px;
+    margin-top: 10px;
+}
